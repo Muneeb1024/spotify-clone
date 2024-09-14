@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  border: border-box;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  display: flex;
+  background-color: black;
+  height: 100vh;
+}
+/* This is left-box styling */
+.left-box {
+  width: 20vw;
+  background-color: black;
+  padding: 10px;
+}
+/* //Home-sec styling */
+.home-section {
+  background-color: #121212;
+  padding: 26px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+/* //logo-styling */
+.spot-logo {
+  width: 100px;
+  margin-bottom: 13px;
+  cursor: pointer;
+}
+.spot-logo > a > img {
+  width: 100%;
+}
+.home-line-1 {
+  margin-bottom: 20px;
+}
+.home-lines > ul > li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: #ffff;
+}
+.home-lines > ul > li > i {
+  font-size: 23px;
+  cursor: pointer;
+}
+.home-lines > ul > li > a {
+  font-size: 17px;
+  color: #ffff;
+  font-weight: 700;
+  cursor: pointer;
+}
+/* //home section is complete */
+/*This is library-sec styling */
+.library-section {
+  background-color: #121212;
+  padding: 26px;
+  border-radius: 8px;
+  height: 320px;
+  position: relative;
+}
+.library-line-1 {
+  display: flex;
+  align-items: center;
+}
+.library-line-1 > img {
+  width: 35px;
+}
+.library-line-1 > h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffff;
+  margin-left: 10px;
+}
+.library-line-1 > a > i {
+  font-size: 17px;
+  font-weight: 700;
+  color: #ffff;
+  margin-left: 53px;
+}
+.footer {
+  display: flex;
+  font-size: 12px;
+  margin-top: 100px;
+}
+.bb {
+  list-style: none;
+  margin-bottom: 15px;
+}
+.footer > ul > li > a {
+  color: rgb(184, 184, 184);
+  margin-right: 12px;
+}
+.lib-lang {
+  width: 90px;
+  height: 30px;
+  color: #ffff;
+  font-size: 15px;
+  font-weight: 700;
+  gap: 7px;
+  border: 1.5px solid grey;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  cursor: pointer;
+  margin-top: 30px;
+}
+/* complete library-section */
+
+/*This is right-box styling */
+.right-box {
+  width: 80vw;
+  padding-top: 10px;
+  padding-right: 10px;
+  background-color: black;
+}
+/* //This is nav-bar styling */
+.nav-bar {
+  background-color: #121212;
+  color: #ffff;
+  height: 60px;
+  width: 100%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+}
+.nav-button {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  height: 60px;
+  position: absolute;
+  right: 3%;
+}
+.login {
+  height: 48px;
+  width: 110px;
+  border-radius: 30px;
+  background-color: #ffff;
+  color: #121212;
+  border: none;
+  font-size: 17px;
+  font-weight: 600;
+}
+.signup {
+  height: 48px;
+  width: 110px;
+  border-radius: 30px;
+  background-color: transparent;
+  color: rgb(184, 184, 184);
+  border: none;
+  font-size: 17px;
+  font-weight: 600;
+}
+.nav-keys {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  height: 60px;
+  position: absolute;
+  left: 3%;
+}
+.nav-keys > i {
+  font-size: 16px;
+  color: rgb(184, 184, 184);
+  background-color: rgb(11, 11, 11);
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
+  justify-content: center;
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
+.spotify-main{
+height:450px;
+background-color:#202020;
+color: #ffff;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 45px;
+}
+.spotify-playlist>h1{
+font-size: 24px;
+color: #ffff;
+font-weight: 700;
+margin-left: 10px;
+}
+.card{
+    width:230px;
+}
+
